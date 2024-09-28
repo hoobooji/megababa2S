@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "27564464"))
 API_HASH = os.environ.get("API_HASH", "30fcb9ee38f65bdbf3f5771b6514851d")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002382528737"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002312384828"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7224364540"))
@@ -28,17 +28,17 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7224364540"))
 PORT = os.environ.get("PORT", "8033")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://wtflinksofficial:wtflinksofficial@cluster0.oh1c5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://wtflinksofficial:wtflinksofficial@cluster0.ff5tu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "wtflinksofficial")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002269951126"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002282022901"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first} , Thanks for using me Join Now: @Nottylinkshub 🍒.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first} , Thanks for using me Join Now: @Nottyleak 🍒.\n\n")
 try:
     ADMINS=[6376328008]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -47,7 +47,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "HEY {first}🌺\n \nPlease Join our channel First [ᴛᴀᴘ ᴏɴ ᴊᴏɪɴ 🥹]\n Then\n \n Watching by tapping on ♻️ RELOAD  \nThank You ❤️")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "HEY {first}🌺\n \nJoin our channel to use me.")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
